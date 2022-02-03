@@ -19,7 +19,7 @@ let NewsItem = ({ article }) =>
 				<h1>{article.title}</h1>
 				<img style={imgStyle} src={article.urlToImage} alt='' />
 				<h4>{article.description}</h4>
-				<a href={article.url} target='_blank'>
+				<a href={article.url} target='_blank' rel='noreferrer'>
 					READ MORE
 				</a>
 			</div>
